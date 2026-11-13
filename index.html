@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Shakti Gems &amp; Jewels · Greater Kailash</title>
-<meta name="description" content="Shakti Gems &amp; Jewels, Greater Kailash, New Delhi. Gemstones, gold and diamond jewellery, bridal sets. Enquire on WhatsApp.">
+<meta name="description" content="Shakti Gems &amp; Jewels, GK-2, New Delhi. Trusted name since 1937. Premium diamond jewellery, natural, certified and customised. Enquire on WhatsApp.">
 <meta name="theme-color" content="#0c2a22">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c2a22'/%3E%3Cpath d='M16 6l9 8-9 12-9-12z' fill='%2337b184'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -101,6 +101,17 @@ nav a{text-decoration:none}
 @media(hover:hover){.crow:hover{padding-left:20px;background:color-mix(in srgb,var(--gem) 14%,transparent)}.crow:hover .ar{transform:translateX(8px)}}
 @media(max-width:860px){.coll .top{grid-template-columns:1fr}.crow{grid-template-columns:40px 1fr 30px}.crow p{grid-column:2}}
 
+/* showroom */
+.show{padding:clamp(80px,11vw,150px) var(--gut);background:var(--bg2);transition:background .9s}
+.sh-head{margin-bottom:48px}
+.sh-head h2{font-size:var(--fs-h2)}
+.sh-grid{display:grid;grid-template-columns:1.1fr .8fr 1.1fr;gap:clamp(12px,2vw,28px);align-items:end}
+.sh-grid figure{position:relative;overflow:hidden;border:1px solid rgba(244,239,228,.2)}
+.sh-grid figure:nth-child(1){aspect-ratio:3/4.4}.sh-grid figure:nth-child(2){aspect-ratio:3/3.6}.sh-grid figure:nth-child(3){aspect-ratio:3/4}
+.sh-grid img{width:100%;height:100%;object-fit:cover;transition:transform 1.3s var(--ease)}
+.sh-grid figcaption{position:absolute;left:16px;bottom:14px;font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.7)}
+@media(hover:hover){.sh-grid figure:hover img{transform:scale(1.06)}}
+@media(max-width:760px){.sh-grid{grid-template-columns:1fr 1fr}.sh-grid figure:nth-child(1){grid-column:1/3;aspect-ratio:4/3.4}}
 /* four cs */
 .cs{padding:clamp(80px,11vw,150px) var(--gut);background:linear-gradient(180deg,var(--bg2),var(--bg));transition:background .9s}
 .cs .head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:56px}
@@ -149,7 +160,7 @@ footer .r{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;bor
     <span class="spark"></span><span class="spark"></span><span class="spark"></span>
   </div>
   <div class="pick">
-    <p>Gems and fine jewellery from Greater Kailash, New Delhi. Choose a stone and see the room change.</p>
+    <p>Premium diamond jewellery from GK-2, New Delhi. Trusted name since 1937. Choose a stone and see the room change.</p>
     <div class="chips" role="group" aria-label="Choose a gemstone">
       <button class="chip" style="--c:#2fae7f" data-g="emerald" aria-pressed="true"><i></i>Emerald</button>
       <button class="chip" style="--c:#e0294d" data-g="ruby" aria-pressed="false"><i></i>Ruby</button>
@@ -161,16 +172,25 @@ footer .r{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;bor
 </section>
 
 <section class="coll" id="collections">
-  <div class="top rv"><div><p class="label"><b>01</b> — Collections</p><h2 style="margin-top:14px">Set in <em>gold,</em> kept for years.</h2></div><p>Gold and diamond jewellery, gemstones, pearls and bridal sets. Ask us about any piece and we will show it.</p></div>
-  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20gemstones." target="_blank" rel="noopener"><span class="n">01</span><h3>Gemstones</h3><p>Emerald, ruby, sapphire and more, chosen by colour and clarity.</p><span class="ar">→</span></a>
-  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20diamond%20jewellery." target="_blank" rel="noopener"><span class="n">02</span><h3>Diamond</h3><p>Rings, pendants and earrings that catch every light in the room.</p><span class="ar">→</span></a>
-  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20gold%20jewellery." target="_blank" rel="noopener"><span class="n">03</span><h3>Gold</h3><p>Everyday and occasion pieces in gold, finished with care.</p><span class="ar">→</span></a>
-  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20pearls." target="_blank" rel="noopener"><span class="n">04</span><h3>Pearls</h3><p>Strands and drops, classic and quietly bright.</p><span class="ar">→</span></a>
-  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20bridal%20sets." target="_blank" rel="noopener"><span class="n">05</span><h3>Bridal</h3><p>Sets for the wedding, planned around the outfit and the family.</p><span class="ar">→</span></a>
+  <div class="top rv"><div><p class="label"><b>01</b> — Collections</p><h2 style="margin-top:14px">Set in <em>gold,</em> kept for years.</h2></div><p>Premium diamond jewellery, natural and certified, made to your design. Ask us about any piece and we will show it.</p></div>
+  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20diamond%20jewellery." target="_blank" rel="noopener"><span class="n">01</span><h3>Diamond</h3><p>Necklaces, earrings, rings and bracelets in natural, certified diamonds.</p><span class="ar">→</span></a>
+  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20gemstones." target="_blank" rel="noopener"><span class="n">02</span><h3>Gemstones</h3><p>Emerald, ruby, sapphire and more, chosen by colour and clarity.</p><span class="ar">→</span></a>
+  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20the%20men%27s%20collection." target="_blank" rel="noopener"><span class="n">03</span><h3>Men's collection</h3><p>Rings and bracelets set with diamonds, made to be worn every day.</p><span class="ar">→</span></a>
+  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20see%20bridal%20and%20temple%20sets." target="_blank" rel="noopener"><span class="n">04</span><h3>Bridal &amp; temple</h3><p>Sets for the wedding, planned around the outfit and the family.</p><span class="ar">→</span></a>
+  <a class="crow rv" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20a%20customised%20piece." target="_blank" rel="noopener"><span class="n">05</span><h3>Customised</h3><p>Bring an idea or a sketch and we make it, to your size and budget.</p><span class="ar">→</span></a>
+</section>
+
+<section class="show" aria-label="Pieces">
+  <div class="sh-head rv"><p class="label"><b>02</b> — Natural · Certified · Customised</p><h2 style="margin-top:14px">Trusted since <em>1937.</em></h2></div>
+  <div class="sh-grid">
+    <figure class="rv"><img src="img/necklace.jpg" alt="Diamond and emerald necklace set on a bust" loading="lazy"><figcaption>Necklace sets</figcaption></figure>
+    <figure class="rv"><img src="img/earrings.jpg" alt="Diamond leaf earrings" loading="lazy"><figcaption>Earrings</figcaption></figure>
+    <figure class="rv"><img src="img/antique.jpg" alt="Antique gold necklace with ruby drop" loading="lazy"><figcaption>Temple &amp; antique</figcaption></figure>
+  </div>
 </section>
 
 <section class="cs" id="choose">
-  <div class="head"><div class="rv"><p class="label"><b>02</b> — How to choose</p><h2 style="margin-top:14px">Four things that <em>matter.</em></h2></div><p class="label rv">Ask us to show you each one</p></div>
+  <div class="head"><div class="rv"><p class="label"><b>03</b> — How to choose</p><h2 style="margin-top:14px">Four things that <em>matter.</em></h2></div><p class="label rv">Ask us to show you each one</p></div>
   <div class="grid4">
     <div class="c4 rv"><span class="big">C</span><div><h3>Colour</h3><p>Depth and evenness of hue. The first thing the eye reads.</p></div></div>
     <div class="c4 rv"><span class="big">C</span><div><h3>Cut</h3><p>How well the facets return light to your eye.</p></div></div>
@@ -182,9 +202,9 @@ footer .r{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;bor
 <section class="visit" id="visit">
   <h2 class="rv">Come see it <em>in the light.</em></h2>
   <div class="card rv">
-    <p class="label"><b>03</b> — Visit or enquire</p>
+    <p class="label"><b>04</b> — Visit or enquire</p>
     <dl>
-      <div><dt>Where</dt><dd>Greater Kailash, New Delhi</dd></div>
+      <div><dt>Where</dt><dd>GK-2, Greater Kailash, New Delhi</dd></div>
       <div><dt>Call</dt><dd><a href="tel:+919810161267">098101 61267</a></dd></div>
       <div><dt>Prices</dt><dd>On request, per piece</dd></div>
     </dl>
@@ -198,7 +218,7 @@ footer .r{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;bor
 
 <footer>
   <div class="fw" aria-hidden="true">Shakti Gems</div>
-  <div class="r"><span>Shakti Gems &amp; Jewels · Greater Kailash, New Delhi</span><span>Design demo by <a href="https://github.com/kavimirweb-blip">Kavimir</a></span></div>
+  <div class="r"><span>Shakti Gems &amp; Jewels · GK-2, New Delhi · Trusted name since 1937</span><span>Design demo by <a href="https://github.com/kavimirweb-blip">Kavimir</a></span></div>
 </footer>
 
 <div class="bar"><a class="btn solid" href="https://wa.me/919810161267?text=Hi%20Shakti%20Gems%2C%20I%27d%20like%20to%20enquire." target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="tel:+919810161267">Call</a></div>
